@@ -1,0 +1,395 @@
+    html,
+    body {
+        font-family: helvetica;
+        font-size: 0.85rem;
+        margin: auto;
+        padding: 0;
+        background-image: url(images/magicspoon-keto-cereal-bowl-floating_2048x2048@2x.gif);
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        background-attachment: scroll;
+        background-position-y: -70px;
+    }
+    
+    html {
+        overflow-x: hidden;
+    }
+    
+    #sec1 {
+        height: 100%;
+    }
+    
+    #promo {
+        color: white;
+        background-color: indigo;
+        width: 100%;
+        margin: 0px, 0px, auto, 0px;
+        text-align: center;
+        padding: .2rem;
+        position: absolute;
+    }
+    
+    #landingheader {
+        max-width: 100%;
+        margin: auto;
+    }
+    
+    #shopnow {
+        color: white !important;
+    }
+    
+    #shopnow:hover {
+        text-decoration: underline;
+    }
+    
+    .navitem {
+        display: flex;
+        flex-direction: row;
+        padding-left: 100px;
+        padding-right: 100px;
+        text-transform: uppercase;
+    }
+    
+    #navbar {
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: helvetica-bold;
+        padding-top: 70px;
+        margin-left: -60px;
+    }
+    
+    #navlogo {
+        max-width: 1.5in;
+    }
+    /* Dropdown Button */
+    
+    .dropbtn {
+        background-color: rgba(255, 255, 255, 0.0);
+        color: white;
+        border: none;
+        text-align: center;
+        font-size: 0.85rem;
+        font-family: helvetica-bold;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        align-content: center;
+        text-align: center;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        align-self: center;
+        width: 150px;
+        text-align: center;
+        transform: translateX(-18%) !important;
+        color: black;
+    }
+    
+    .dropdown-content a {
+        color: black !important;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+    /* Change color of dropdown links on hover */
+    
+    .dropdown-content a:hover {
+        color: black;
+        text-decoration: underline!important;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .dropdown:hover .dropbtn {
+        background-color: white;
+        color: black;
+    }
+    
+    .dropbtn:hover {
+        color: black;
+    }
+    
+    .topright {
+        position: absolute;
+        right: 150px;
+        kerning: 100px;
+    }
+    
+    .topright1 {
+        position: absolute;
+        right: 200px;
+    }
+    
+    #frontpage-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 600px;
+        margin: 70px auto auto auto;
+        color: white;
+    }
+    
+    #landingtext {
+        font-size: 36px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 275px;
+        margin-top: 0px;
+    }
+    
+    #trynow {
+        width: 150px !important;
+        height: 50px !important;
+        font-size: 20px;
+        border-radius: 30px;
+        font-family: helvetica-bold;
+        text-transform: uppercase;
+        border: none;
+        background-color: white;
+    }
+    
+    a {
+        color: blueviolet;
+        padding: 20px;
+    }
+    
+    a,
+    a:visited,
+    a:active,
+    a:focus {
+        text-decoration: none !important;
+        color: blueviolet;
+    }
+    
+    #trynow:hover {
+        background-color: blueviolet;
+    }
+    
+    a:hover {
+        color: white;
+    }
+    
+    #arrow {
+        display: block;
+        position: absolute;
+        left: 50%;
+        bottom: 50px;
+        margin-left: -35px;
+    }
+    
+    #reviewbox {
+        margin: auto;
+        height: auto;
+        DISPLAY: FLEX;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    
+    #sec2 {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        margin-top: 0px;
+    }
+    
+    .review {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: #4b0082;
+        max-width: 20%;
+        padding-left: 55px;
+        padding-right: 55px;
+        justify-content: space-evenly;
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    
+    .revlogo {
+        width: 100%;
+        filter: invert(8%) sepia(84%) saturate(7202%) hue-rotate(281deg) brightness(51%) contrast(130%);
+    }
+    
+    #SECTION {
+        background-color: lavender;
+        height: 300px;
+    }
+    
+    #SECTION2BLUE {
+        MAX-WIDTH: 100%;
+    }
+    
+    #sec3 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        color: indigo;
+        color: lightblue;
+        background-image: url(images/impretty.png);
+        background-size: 100%;
+        background-position: bottom right;
+        background-position-x: 400px;
+        background-attachment: local;
+        background-repeat: no-repeat;
+    }
+    
+    #left {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+        padding: 50px;
+    }
+    
+    h2 {
+        font-size: 50px !important;
+        margin-bottom: 0;
+    }
+    
+    .lefttext {
+        width: 200px;
+        margin: auto;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer {
+        background-color: black;
+        height: 250px;
+        color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #footer-container {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        justify-content: space-between;
+    }
+    
+    #footer-col-1 {
+        width: 35%;
+    }
+    
+    #footer-col-2 {
+        width: 30%;
+        text-align: center;
+        font-size: 40px;
+        letter-spacing: 20px;
+    }
+    
+    #footer-col-2:hover {
+        color: purple;
+    }
+    
+    #footer-col-3 {
+        width: 40%;
+    }
+    
+    #footer-things {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    #email {
+        width: 55%;
+        height: 50px;
+        border-style: solid;
+        border-color: white;
+        border-radius: 30px;
+        background-color: black;
+        outline: none;
+    }
+    
+    input {
+        color: white;
+        text-indent: 10px;
+    }
+    
+    #subscribe-button {
+        width: 40%;
+        height: 50px;
+        border-style: solid;
+        border-color: white;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #subscribe-text {
+        font-weight: bold;
+    }
+    
+    #dontmiss {
+        font-size: 20px;
+    }
+    
+    #footer-logo {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    #miss {
+        font-weight: bold;
+    }
+    
+    #happiness {
+        text-align: center;
+        background-color: purple;
+        height: 200px;
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #happiness-text {
+        font-size: 60px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    #TRYNOW {
+        background-color: white;
+        border-radius: 30px;
+        height: 50PX;
+        width: 140PX;
+        margin-left: 20PX;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #trynow-text {
+        font-weight: bold;
+    }
